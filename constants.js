@@ -13,7 +13,7 @@ const COLORS = [
   'yellow',
   'green',
   'purple',
-  'red'
+  '#D8262F'
 ];
 // Фiгури
 const SHAPES = [
