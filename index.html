@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="flex">
+      <div class="bg_wr">
+     <!-- Iгрове поле. -->
+      <canvas id="board" class="game-board"></canvas>
+      <!-- Колонка зi статистикою. -->
+      <div class="right-column">
+        <div>
+          <h1>TETRIS</h1>
+          <p>Score: <span id="score">0</span></p>
+          <p>Lines: <span id="lines">0</span></p>
+          <p>Level: <span id="level">0</span></p>
+         <!-- Поле, щоб вiдобразити яка фігурка буде наступною. -->
+          <canvas id="next" class="next"></canvas>
+        </div>
+        <!-- Кнопки старту та паузи гри. -->
+        <button id="play-btn" onclick="play()" class="play-button">Play</button>
+        <button id="pause-btn" onclick="pause()" class="play-button">Pause</button>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="constants.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="piece.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
