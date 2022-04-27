@@ -13,6 +13,11 @@ body{
   justify-content: center;
   align-items: center;
 }
+.infor{
+  font-size: 13px;
+  text-shadow: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .bg_wr{
   border: 2px solid rgb(0, 0, 0);
   border-radius: 15px;
