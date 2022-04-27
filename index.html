@@ -20,9 +20,17 @@
           <h1>TETRIS</h1>
           <p>Score: <span id="score">0</span></p>
           <p>Lines: <span id="lines">0</span></p>
-          <p>Level: <span id="level">0</span></p>
+          <p>Level: <span id="level">0</span></p>     
          <!-- Поле, щоб вiдобразити яка фігурка буде наступною. -->
           <canvas id="next" class="next"></canvas>
+          <p class="infor">&#8595; - прискорення падіння</p>
+          <p class="infor">&#8593; - поворот фігури</p>
+          <p class="infor">&#8592; - пересування вліво</p>
+          <p class="infor">&#8594; - пересування вправо</p>
+          <p class="infor">Q - поворот фігури</p>
+          <p class="infor">Space - скидання фігури</p>
+          <p class="infor">Esc - закінчення гри</p>
+          <p class="infor">P - пауза</p>
         </div>
         <!-- Кнопки старту та паузи гри. -->
         <button id="play-btn" onclick="play()" class="play-button">Play</button>
