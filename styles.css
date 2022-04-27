@@ -22,8 +22,8 @@ body{
   border: 2px solid rgb(0, 0, 0);
   border-radius: 15px;
   width: 900px;
-  padding: 50px 20px;
-  margin: 100px auto;
+  padding: 40px 10px;
+  margin: 50px auto;
   display: flex;
   justify-content: space-evenly;
   backdrop-filter: blur(13px);
@@ -48,9 +48,7 @@ justify-content: center;
   border: solid 2px rgb(0, 0, 0);
   border-radius: 15px;
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.7);
-  
 }
-
 .play-button {
   height: 50px;
   width: 100%;
